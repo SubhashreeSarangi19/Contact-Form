@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Let us know your queries, feedbacks and enquiries. We are here to support you 24/7.</p>
+            
+            <div class="contact-detail">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.89 19.89 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.08.73.23 1.44.46 2.12a2 2 0 0 1-.45 2.11L7.91 10.91a16 16 0 0 0 6.36 6.36l1.06-1.06a2 2 0 0 1 2.11-.45 17.63 17.63 0 0 0 2.12.46 2 2 0 0 1 1.72 2V19a2 2 0 0 1-1.72 2.18 20.06 20.06 0 0 1-2.07-.26z"></path>
+                </svg>
+                <div>
+                    <p style="color: rgb(130, 128, 128);">Give us a call:</p>
+                    <p>+91 9736097320</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21 15a2 2 0 0 1-2 2H5l-4 4V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10z"></path>
+                  </svg>
+                <div>
+                    <p style="color: rgb(130, 128, 128);">Write to us:</p>
+                    <p>cs@guvi.in</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+                  </svg>
+                <div>
+                    <p style="color: rgb(130, 128, 128);">Visit us in Chennai:</p>
+                    <p>IITM Research Park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Taramani, Chennai, Tamil Nadu 600113</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+                  </svg>
+                <div>
+                    <p style="color: rgb(130, 128, 128);">Visit us in Noida:</p>
+                    <p>A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Say <span style="color: #28a745;">Hello !</span></h2>
+            <p>Feel free to stop by and say hi!</p>
+            <form id="contactForm"> 
+                <label for="name">Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Contact Number <span class="required">*</span></label>
+                <input type="tel" id="phone" name="contactNumber" required>
+
+                <label for="subject">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
